@@ -36,3 +36,24 @@
     transform: rotate(360deg);
   }
 }
+
+
+/* horizontal scrollbar */
+.no-scrollbar::-webkit-scrollbar {
+  height: 8px;
+}
+
+.no-scrollbar::-webkit-scrollbar-thumb {
+  background-color: #a0aec0; /* gray */
+  border-radius: 4px;
+}
+
+.no-scrollbar::-webkit-scrollbar-track {
+  background-color: #edf2f7; /* light gray */
+}
+
+.hero-background {
+
+   background: radial-gradient(circle, #1e90ff -700%, #000000 100%);
+  
+}
