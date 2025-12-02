@@ -1,12 +1,9 @@
-
-
 const Trending = (Props) => {
  
   return (
     <>
     
 
-      
         
        <div className="group inline-block gap-2 px-3  ">
         

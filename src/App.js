@@ -1,32 +1,38 @@
 import "./App.css";
+import Default from "./Components/Default";
+import Foot from "./Components/Foot";
 import Home from "./Components/Home";
-import Movie from "./Components/Movie";
-import Series from "./Components/Series";
-import Trending from "./Components/Trending";
-import data from "./data";
+
+
+import MovieGallery from "./Components/MovieGallery";
+import Nav from "./Components/Nav";
+
+
+
+
+
+
+
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 function App() {
   return (
     <>
       <Router>
+        <Nav/>
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/movie" element={<Movie />} />
-          <Route path="/series" element={<Series />} />
+          <Route path="/movie" element={<MovieGallery />} />
+          
+          <Route path="*" element={<Default/>}/>
         </Routes>
+        <Foot/>
       </Router>
 
-      <div className="border-t-4 border-red-500   hero-background">
-        <h2 className="text-2xl  ms-4 mt-5 text-white">Trending Now</h2>
-        <div className="flex flex-row gap-4 overflow-x-auto  p-4 no-scrollbar ">
-          {data.map((val) => (
-            <Trending name={val.name} image={val.image} />
-          ))}
-        </div>
-      </div>
     </>
   );
 }
 
 export default App;
+
+<Default/>
