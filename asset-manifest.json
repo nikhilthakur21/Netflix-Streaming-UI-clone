@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/your-repo-name/static/css/main.35fcf698.css",
-    "main.js": "/your-repo-name/static/js/main.57099578.js",
-    "static/js/453.13e2fe89.chunk.js": "/your-repo-name/static/js/453.13e2fe89.chunk.js",
-    "index.html": "/your-repo-name/index.html",
-    "main.35fcf698.css.map": "/your-repo-name/static/css/main.35fcf698.css.map",
-    "main.57099578.js.map": "/your-repo-name/static/js/main.57099578.js.map",
-    "453.13e2fe89.chunk.js.map": "/your-repo-name/static/js/453.13e2fe89.chunk.js.map"
+    "main.css": "/Netflix-Streaming-UI-clone/static/css/main.35fcf698.css",
+    "main.js": "/Netflix-Streaming-UI-clone/static/js/main.087cf814.js",
+    "static/js/453.13e2fe89.chunk.js": "/Netflix-Streaming-UI-clone/static/js/453.13e2fe89.chunk.js",
+    "index.html": "/Netflix-Streaming-UI-clone/index.html",
+    "main.35fcf698.css.map": "/Netflix-Streaming-UI-clone/static/css/main.35fcf698.css.map",
+    "main.087cf814.js.map": "/Netflix-Streaming-UI-clone/static/js/main.087cf814.js.map",
+    "453.13e2fe89.chunk.js.map": "/Netflix-Streaming-UI-clone/static/js/453.13e2fe89.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.35fcf698.css",
-    "static/js/main.57099578.js"
+    "static/js/main.087cf814.js"
   ]
 }
