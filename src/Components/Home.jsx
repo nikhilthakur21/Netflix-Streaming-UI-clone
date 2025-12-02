@@ -11,7 +11,9 @@ const Home = () => {
     <>
 
     
-      <div className=" bg-[url('/Assets/himg.jpg')] h-screen bg-cover bg-center bg-blend-multiply bg-black/80 w-auto  border-2 border-black-900 -mt-22 ">
+      <div className=" h-screen bg-cover bg-center bg-blend-multiply bg-black/80 w-auto  border-2 border-black-900 -mt-22 "  style={{
+    backgroundImage: `url(${process.env.PUBLIC_URL}/Assets/himg.jpg)`,
+  }}>
         
         <div className="flex justify-center  items-center  text-center  py-50 flex-col">
           <h1 className="text-white font-bold z-20 text-center text-4xl sm:text-5xl md:text-6xl font-extrabold tracking-wide ">
