@@ -16,6 +16,7 @@ const Trending = (Props) => {
           
           <img
           src={Props.image}
+           alt="img"
           className="w-full h-full object-cover"
         />
         </div>  
