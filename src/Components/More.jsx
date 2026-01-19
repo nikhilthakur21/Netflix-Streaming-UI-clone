@@ -7,7 +7,6 @@ const More = (Props) => {
                     flex items-start justify-start text-left  overflow-hidden
                      transition-transform duration-300 ease-out
                      border border-black card-bg rounded-xl
-                    
                       group-hover:scale-105 group-hover:shadow-xl group-hover:z-10 relative "
         >
           <h1 className="text-white p-4 ps-3 font-bold text-2xl">

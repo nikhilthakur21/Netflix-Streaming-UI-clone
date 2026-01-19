@@ -24,5 +24,4 @@ const Movie = (Props) => {
     </>
   );
 };
-
 export default Movie;

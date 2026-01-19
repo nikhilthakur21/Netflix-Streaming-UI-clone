@@ -21,15 +21,17 @@ const Nav = () => {
                 to="/movie"
                 className="px-6 py-2 border border-black bg-red-700 text-white rounded-lg hover:bg-red-800"
               >
-                Movie / Series
+                Movie 
               </NavLink>
 
-              {/* <NavLink
+              
+
+              <NavLink
                 to="/series"
                 className="px-6 py-2 border border-black bg-red-700 text-white rounded-lg hover:bg-red-800 "
               >
-                
-              </NavLink> */}
+                Series
+              </NavLink>
             </div>
           </div>
         </div>
@@ -37,5 +39,4 @@ const Nav = () => {
     </>
   );
 };
-
 export default Nav;

@@ -12,7 +12,7 @@ const Trending = (Props) => {
                      transition-transform duration-300 ease-out
                     
                       group-hover:scale-105 group-hover:shadow-xl group-hover:z-10 ">
-                     
+                   
           
           <img
           src={Props.image}

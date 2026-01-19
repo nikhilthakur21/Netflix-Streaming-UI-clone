@@ -14,7 +14,6 @@ const Question = (Props)=>{
             {/* Netflix is a streaming service where you can watch movies and shows. */}{Props.answer}
           </p>
         </details>
-
        
         </>
     )
